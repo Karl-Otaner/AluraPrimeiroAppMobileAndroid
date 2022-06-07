@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -27,11 +28,15 @@
       android:layout_margin="8dp"
       android:hint="E-mail"
       android:inputType="textEmailAddress"/>
-  <Button android:id="@+id/activity_formulario_aluno_botao_salvar"
+
+  <Button
+      android:id="@+id/activity_formulario_aluno_botao_salvar"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_margin="8dp"
-      android:hint="Salvar"/>
+      android:hint="Salvar"
+      android:textColorHint="@color/white" />
+
 
 
   </LinearLayout>
